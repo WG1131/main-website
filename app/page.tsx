@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import Header from "./components/Header";
 
 export default function Home() {
-  return ( <div class="container place-content-center">
-    <div class="pt-20"></div>
-    <p class="text-3xl text-center"> WG1131 </p>
-  </div>
-  )
+  return (
+    <>
+      <Header />
+      <div className="container place-content-center mt-80">
+        <p className="text-5xl text-center"> WG1131 </p>
+      </div>
+    </>
+  );
 }
