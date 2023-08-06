@@ -18,6 +18,13 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Deployment
+
+The website is runnig on a local raspberry pi. To deploy the main branch to the pi you have to be in the local network and run the deploy-to-pi.sh script. It builds the main branch of the project loads it on to the pi and starts the server.
+
+```bash
+bash deploy-to-pi.sh
+```
 
 ## Learn More
 
