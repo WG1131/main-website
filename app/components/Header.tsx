@@ -7,6 +7,9 @@ export default function Header() {
       <a href="./about">
         <button>About</button>
       </a>
+      <a href="./whoishome">
+        <button>Who's Home?</button>
+      </a>
     </div>
   );
 }
