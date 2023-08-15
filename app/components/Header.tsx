@@ -8,7 +8,7 @@ export default function Header() {
         <button>About</button>
       </a>
       <a href="./whoishome">
-        <button>Who's Home?</button>
+        <button>Who is Home?</button>
       </a>
     </div>
   );
