@@ -12,7 +12,6 @@ npm run build
 rsync -avzd ./.next next@pi.local:/home/next/main-website/
 rsync -avzd ./node_modules next@pi.local:/home/next/main-website/
 rsync -avzd ./package.json next@pi.local:/home/next/main-website/
-rsync -avzd ./ecosystem.config.js next@pi.local:/home/next/main-website/
 
 # start server on the pi
-ssh next@pi.local 'pm2 startOrRestart main-website/ecosystem.config.js'
+ssh next@pi.local 'pm2 restart main-website'
